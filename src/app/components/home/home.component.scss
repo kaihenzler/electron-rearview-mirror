@@ -1,0 +1,27 @@
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+
+  background-image: url("assets/rear-view-background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: center;
+
+  .camera-wrapper {
+    padding-top: 40px;
+    video {
+      border-radius: 45px;
+    }
+  }
+
+  .title {
+    color: white;
+    margin:0;
+    padding:50px 20px;
+  }
+
+}

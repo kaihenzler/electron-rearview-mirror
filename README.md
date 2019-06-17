@@ -103,3 +103,8 @@ Note that you can't use Electron or NodeJS native libraries in this case. Please
 [github-star]: https://github.com/maximegris/angular-electron/stargazers
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20angular-electron!%20https://github.com/maximegris/angular-electron%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/maximegris/angular-electron.svg?style=social
+
+## Images
+
+- Background Image of the rear view mirror (For Personal Use) - Source: https://www.kisspng.com/png-mac-app-store-macos-apple-rear-view-mirror-car-mir-1026435/download-png.html
+- App Icon (For Personal Use) - Source: https://www.kisspng.com/png-car-computer-icons-rear-view-mirror-4290757/

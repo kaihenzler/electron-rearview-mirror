@@ -1,11 +1,11 @@
-import {AfterViewInit, Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit, AfterViewInit {
+export class HomeComponent implements AfterViewInit {
 
   @ViewChild('camera')
   camera: ElementRef<HTMLVideoElement>;
@@ -13,22 +13,16 @@ export class HomeComponent implements OnInit, AfterViewInit {
   constructor() {
   }
 
-  ngOnInit() {
-
+  async ngAfterViewInit() {
+    try {
+      this.camera.nativeElement.srcObject = await navigator.mediaDevices.getUserMedia({
+        video: {
+          width: 590,
+          height: 165,
+        }
+      });
+    } catch (e) {
+      alert('could not connect stream ' + e);
+    }
   }
-
-  ngAfterViewInit(): void {
-    navigator.mediaDevices.getUserMedia({
-      video: {
-        width: 590,
-        height: 165,
-      }
-    })
-      .then((stream) => {
-        this.camera.nativeElement.srcObject = stream;
-      }).catch((e) => {
-        alert('could not connect stream ' + e);
-    });
-  }
-
 }

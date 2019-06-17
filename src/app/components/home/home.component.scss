@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
 
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  -webkit-background-size: cover;
 
   background-image: url("assets/rear-view-background.png");
   background-repeat: no-repeat;
@@ -17,11 +17,4 @@
       border-radius: 45px;
     }
   }
-
-  .title {
-    color: white;
-    margin:0;
-    padding:50px 20px;
-  }
-
 }

@@ -1,18 +1,17 @@
 [![Angular Logo](https://www.vectorlogo.zone/logos/angular/angular-icon.svg)](https://angular.io/) [![Electron Logo](https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg)](https://electronjs.org/)
 
-[![Make a pull request][prs-badge]][prs]
-[![License](http://img.shields.io/badge/Licence-MIT-brightgreen.svg)](LICENSE.md)
-
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
-[![Tweet][twitter-badge]][twitter]
-
 # Introduction
 
 Rearview / Backview mirror for your Computer
 Read the article about this App on https://www.thecodecampus.de/blog/building-a-rear-view-mirror-app-with-electron-and-angular
 
 [![Rear View Example](rear-view-example.png)](https://www.thecodecampus.de/blog/building-a-rear-view-mirror-app-with-electron-and-angular) 
+
+## Download 
+
+See binaries located in the release tab
+
+https://github.com/kaihenzler/electron-rearview-mirror/releases/tag/1.0.0
 
 ## Getting Started
 
